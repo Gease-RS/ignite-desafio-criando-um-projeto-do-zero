@@ -37,22 +37,100 @@ export default function Home() {
           <Header />
         </Head>
         <section className={styles.posts}>
-          <Link href="/posts/[uid]" as="/posts/first-post">
-            <a>
-            <span>Como utilizar Hooks</span>
-            <p>Pensando em sincronização em vez de ciclos de vida.</p>
-            <ul>
-              <li>
-                <FiCalendar />
-                15 Mar 2021
-              </li>
-              <li>
-                <FiUser />
-                Joseph Oliveira
-              </li>
-            </ul>
-            </a>
-          </Link>
+          <div className={styles.post}>
+            <Link href="/posts/[uid]" as="/posts/first-post">
+              <a>
+                <strong>Como utilizar Hooks</strong>
+                <p>Pensando em sincronização em vez de ciclos de vida.</p>
+                <ul>
+                  <li>
+                    <FiCalendar />
+                    15 Mar 2021
+                  </li>
+                  <li>
+                    <FiUser />
+                    Joseph Oliveira
+                  </li>
+                </ul>
+              </a>
+            </Link>
+          </div>
+
+          <div className={styles.post}>
+            <Link href="/posts/[uid]" as="/posts/first-post">
+              <a>
+                <strong>Como utilizar Hooks</strong>
+                <p>Pensando em sincronização em vez de ciclos de vida.</p>
+                <ul>
+                  <li>
+                    <FiCalendar />
+                    15 Mar 2021
+                  </li>
+                  <li>
+                    <FiUser />
+                    Joseph Oliveira
+                  </li>
+                </ul>
+              </a>
+            </Link>
+          </div>
+
+          <div className={styles.post}>
+            <Link href="/posts/[uid]" as="/posts/first-post">
+              <a>
+                <strong>Como utilizar Hooks</strong>
+                <p>Pensando em sincronização em vez de ciclos de vida.</p>
+                <ul>
+                  <li>
+                    <FiCalendar />
+                    15 Mar 2021
+                  </li>
+                  <li>
+                    <FiUser />
+                    Joseph Oliveira
+                  </li>
+                </ul>
+              </a>
+            </Link>
+          </div>
+
+          <div className={styles.post}>
+            <Link href="/posts/[uid]" as="/posts/first-post">
+              <a>
+                <strong>Como utilizar Hooks</strong>
+                <p>Pensando em sincronização em vez de ciclos de vida.</p>
+                <ul>
+                  <li>
+                    <FiCalendar />
+                    15 Mar 2021
+                  </li>
+                  <li>
+                    <FiUser />
+                    Joseph Oliveira
+                  </li>
+                </ul>
+              </a>
+            </Link>
+          </div>
+
+          <div className={styles.post}>
+            <Link href="/posts/[uid]" as="/posts/first-post">
+              <a>
+                <strong>Como utilizar Hooks</strong>
+                <p>Pensando em sincronização em vez de ciclos de vida.</p>
+                <ul>
+                  <li>
+                    <FiCalendar />
+                    15 Mar 2021
+                  </li>
+                  <li>
+                    <FiUser />
+                    Joseph Oliveira
+                  </li>
+                </ul>
+              </a>
+            </Link>
+          </div>
         </section>
       </main>
     </>

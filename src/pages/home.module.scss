@@ -1,3 +1,34 @@
 .posts {
-    margin-top: 2rem;
+    strong {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: var(--heading);
+        line-height: 2.125rem;
+    }
+
+    p {
+        font-size: 1.375rem;
+        font-weight: 400;
+        color: var(--body);
+        margin-top: 0.5rem;
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 1.5rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+
+        display: flex;
+        align-items: start;
+
+        li {
+            margin-right: 1.563rem;
+        }
+    }
+
+}
+
+.post {
+    margin-top: 3rem;
 }
